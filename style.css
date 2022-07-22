@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+body {
+  width: 100vw;
+  background-color: #1c1f21;
+}
+
+main {
+  background-color: #3d3d3d;
+  max-width: 400px;
+  margin: 4rem auto;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+main p {
+  text-align: center;
+  background-color: #1c1f21;
+  color: white;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.7rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+}
+main div {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+main button {
+  min-width: 25%;
+  background-color: #1c1f21;
+  border: none;
+  color: white;
+  margin: 0 0.2rem;
+  border-radius: 0.3rem;
+  height: 2rem;
+}
+main #min:hover {
+  background-color: #99241e;
+}
+main #rst:hover {
+  background-color: #7d2826;
+}
+main #plus:hover {
+  background-color: #026c7c;
+}
+
+#min:hover {
+  background-color: #99241e;
+}
+
+#rst:hover {
+  background-color: #7d2826;
+}/*# sourceMappingURL=style.css.map */
